@@ -73,7 +73,7 @@ class ArmeControleur(
      *
      * @param nouvelleArme Nouvelle arme à enregistrer.
      * @param redirectAttributes Attributs de redirection pour ajouter des messages flash.
-     * @return Redirection vers la page d'index des armes administratives.
+     * @return Redirection vers la pae d'index des armes administratives.
      */
     @PostMapping("/admin/arme")
     fun store(@ModelAttribute nouvelleArme: Arme, redirectAttributes: RedirectAttributes): String {
